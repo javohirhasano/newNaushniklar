@@ -1,0 +1,56 @@
+.box_around{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.chek{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+.catigors:hover{
+    cursor: pointer;
+margin-left: 10px;
+color: chocolate;
+transition:margin-left 0.5s;
+}
+.products_sections{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.style{
+    min-width: 400px;
+}
+.box1{
+    margin-left: 70px;
+}
+@media (max-width:500px){
+    .box_around{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+       
+    }
+    .products_sections{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        
+    }
+  
+.box1{
+    margin-left: 50px;
+}
+.cars{
+    min-width: 100px;
+    margin-left: -40px;
+}  
+.chek{
+        width: 15px;
+        height: 15px;
+        margin-right: 10px;
+}
+.inp{
+        width: 60px;
+}
+footer{
+    min-width: 320px;
+}
+}
